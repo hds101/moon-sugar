@@ -3,31 +3,28 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title>Tests</title>
-        <meta name="description" content="">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="assets/css/application.css">
-        <link rel="stylesheet" href="assets/css/custom.css">
-        
-        <script src="assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-    </head>
-    <body>
-        <!--[if lte IE 8]>
-            <div class="browsehappy">
-                <p class="lead">Работать в Интернете в старом браузере — то же самое, что ехать на лошади по автомагистрали: ехать можно, но скорость и удобство не те.</p>
-                <p>Если вы используете устаревшую версию браузера, то вы сможете использовать основной функционал нашего сайта, но можете столкнуться с проблемами отображения и некоторых его функций.</p>
-                <p>Подробную информацию о веб-браузерах и используемой вами версии можно найти на сайте <a target="_blank" href="http://whatbrowser.org">WhatBrowser.org</a>.</p>
-                </div>
-        <![endif]-->
-
-        <!-- Document -->
-        <section class="container">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tests</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/application.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Modernizr содержит html5shim (поддержка html5 в ие), который -->
+    <!-- не будет работать, если вынести этот скрипт шапки. -->
+    <script src="assets/js/vendor/modernizr-2.6.2.custom.min.js"></script> 
+</head>
+<body>
+    <!--[if lte IE 8]>
+        <div class="browsehappy">
+            <p class="lead">Работать в Интернете в старом браузере — то же самое, что ехать на лошади по автомагистрали: ехать можно, но скорость и удобство не те.</p>
+            <p>Если вы используете устаревшую версию браузера, то вы сможете использовать основной функционал нашего сайта, но можете столкнуться с проблемами отображения и некоторых его функций.</p>
+            <p>Подробную информацию о веб-браузерах и используемой вами версии можно найти на сайте <a target="_blank" href="http://whatbrowser.org">WhatBrowser.org</a>.</p>
+        </div>
+    <![endif]-->
+    <!-- Document -->
+    <section class="container">
         <h1>Tests</h1>
         <hr>
 
@@ -263,30 +260,17 @@
         <h2>Javascript</h2>
         <h4>modernizr</h4>
         <h4>jquery</h4>
-        <h4>caroufredsel</h4>
-        <h4>fancybox</h4>
-        <h4>scrollTo</h4>
-        <h4>waypoints</h4>
         <h4>holder</h4>
 
         <hr>
 
-        </section>
-        <!-- /Document -->
-        
-        <!-- Javascript -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script> 
-        
-        <script src="assets/js/vendor/fancybox/jquery.fancybox.pack.js"></script>
-        <link rel="stylesheet" href="assets/js/vendor/fancybox/jquery.fancybox.css">
-        <script src="assets/js/vendor/carouFredSel"></script>
-        <script src="assets/js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
-        <script src="assets/js/vendor/waypoints.min.js"></script>
-        <script src="assets/js/vendor/holder.js"></script>
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-        <!-- /Javascript -->
-    </body>
+    </section>
+    <!-- /Document -->
+    <!-- Javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- CDN -->
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script> 
+    <script src="assets/js/vendor/holder.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- /Javascript -->
+</body>
 </html>

@@ -1,9 +1,9 @@
 # MoonSugar
 
-## Description
+### Description
 Simple SASS front-end framework inspired by Bootstrap and other.
 
-## TODO:
+### TODO:
 + SASS Font Awesome
 + Tests
 + TOC
