@@ -1,0 +1,45 @@
+/* Base */
+
+
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+::-moz-selection {
+    background: $green;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: $green;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+@include grid($grid-col-count, $grid-col-width, $grid-gutter-width);
+
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color-text;
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+        color: darken($color-link, 10%);
+        text-decoration: underline;
+    }
+}
+

@@ -1,0 +1,50 @@
+/* Forms */
+
+
+form {
+    margin: 0 0 $line-height-computed;
+    label {
+        display: block;
+        margin-bottom: $line-height-computed / 2;
+        &.inline {
+            @include inline-block;
+            margin-right: $line-height-computed / 2;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    input,
+    textarea,
+    select {
+        @include inline-block;
+        width: 240px;
+        padding: 4px 9px;
+        height: $line-height-computed;
+        line-height: $line-height-computed;
+        border: 1px solid #ccc;
+        outline: none;
+        resize: none;
+        &.block-level {
+            display: block;
+            width: 98%;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+    }
+    select {
+        width: 260px;
+        padding: 4px;
+        height: $line-height-computed + 10px;
+    }
+    textarea {
+        height: auto;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+        display: inline;
+        width: auto;
+        border: none;
+    }
+}
+

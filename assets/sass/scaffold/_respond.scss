@@ -1,0 +1,69 @@
+/* Responsive */
+
+@if $respond  {
+    
+    @media (min-width: 1200px) {
+        @include grid($grid-col-count, $grid-big-col-width, $grid-big-gutter-width);
+    }
+
+    @media (min-width: 768px) and (max-width: 979px) {
+        @include grid($grid-col-count, $grid-mini-col-width, $grid-mini-gutter-width);
+    }
+
+    @media (max-width: 767px) {
+        body {
+            min-width: 100%;
+        }
+        .container {
+            width: auto;
+        }
+        .grid-row {
+            margin-left: 0;
+            @for $i from 1 through $grid-col-count {
+                .grid-col-#{$i} {
+                    display: block;
+                    width: auto;
+                    margin-left: 0;
+                }
+            }
+        }
+        form {
+            label.inline {
+                display: block;
+                margin-right: 0;
+            }
+            input,
+            textarea,
+            select {
+                display: block;
+                padding-left: 2%;
+                padding-right: 2%;
+                width: 96%;
+                &.block-level {
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    width: 96%;
+                }
+            }
+            select {
+                width: 100%;
+                padding-left: 1%;
+                padding-right: 2%;
+            }
+            input[type="checkbox"],
+            input[type="radio"] {
+                display: inline;
+                width: auto;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        
+    }
+
+}
+
+@else {
+    // 
+}

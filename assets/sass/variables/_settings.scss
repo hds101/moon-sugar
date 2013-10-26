@@ -1,0 +1,49 @@
+/* Variables */
+
+
+// Grid
+// ----------------------------------------------------------------------------
+
+$grid-col-count:          12;
+
+$grid-col-width:          60px;
+$grid-gutter-width:       20px;
+
+$grid-big-col-width:      70px;
+$grid-big-gutter-width:   30px;
+
+$grid-mini-col-width:     45px;
+$grid-mini-gutter-width:  15px;
+
+$respond: true;
+
+
+// Type
+// ----------------------------------------------------------------------------
+
+$font-family:          "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:            14px;
+$line-height:          1.428571429; // 20/14
+$line-height-computed: floor($font-size * $line-height);
+
+
+$header-font-family:   $font-family;
+$header-font-weight:   500;
+$header-line-height:   1.1;
+
+
+// Colors
+// ----------------------------------------------------------------------------
+
+$blue:               #428bca; 
+$green:              #5cb85c; 
+$orange:             #f0ad4e; 
+$red:                #d9534f; 
+$cyan:               #5bc0de; 
+
+$color-text:         #222;
+$color-link:         #428bca;
+
+$header-color-text:  $color-text;
+$header-color-link:  $color-link;
+

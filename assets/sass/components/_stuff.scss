@@ -1,0 +1,35 @@
+/* Other components stuff */
+
+.color-blue {
+    color: $blue;
+}
+.color-green {
+    color: $green;
+}
+.color-orange {
+    color: $orange;
+}
+.color-red {
+    color: $red;
+}
+.color-cyan {
+    color: $cyan;
+}
+
+.browsehappy {
+    background-color: $blue;
+    color: #fff;
+    padding: $line-height-computed;
+    width: 100%;
+    p {
+        margin: 0;
+        &.lead {
+            margin-bottom: 5px;
+        }
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+

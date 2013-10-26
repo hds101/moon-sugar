@@ -1,0 +1,36 @@
+/* Mixins */
+
+
+@mixin inline-block {
+    display: inline-block;
+    vertical-align: top;
+    *zoom: 1;
+    *display: inline;
+}
+
+@mixin clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        line-height: 0;
+        content: ""; 
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin image-replace {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+}
+
