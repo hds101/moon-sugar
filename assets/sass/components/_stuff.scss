@@ -16,6 +16,24 @@
     color: $cyan;
 }
 
+.pull-left {
+    float: left;
+    &.img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.pull-right {
+    float: right;
+    &.img {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+}
+
 .browsehappy {
     background-color: $blue;
     color: #fff;

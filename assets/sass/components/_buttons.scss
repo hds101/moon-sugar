@@ -3,6 +3,7 @@
 
 .btn {
     @include inline-block;
+    vertical-align: bottom;
     border: 1px solid #ccc;
     outline: none;
     padding: 4px 12px;
@@ -43,6 +44,16 @@
 }
 
 .btn {
+    // Sizes
+    &.big {
+        padding: 8px 24px;
+        font-weight: 800;
+    }
+    &.mini {
+        padding: 2px 6px;
+        font-weight: 300;
+    }
+    // Colors
     &.blue {
         color: #fff;
         border-color: darken($blue, 5%);
