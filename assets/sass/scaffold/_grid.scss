@@ -32,6 +32,8 @@
                 letter-spacing: normal;
                 word-spacing: normal;
             }
+        }
+        @for $i from 1 through $grid-col-count {
             .grid-offset-#{$i} {
                 margin-left: (($grid-col-width + $grid-gutter-width) * $i ) + $grid-gutter-width;
             }

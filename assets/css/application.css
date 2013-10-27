@@ -276,10 +276,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-1 {
-  margin-left: 100px;
-}
-
 .grid-row .grid-col-2 {
   display: inline-block;
   vertical-align: top;
@@ -291,10 +287,6 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
-}
-
-.grid-row .grid-offset-2 {
-  margin-left: 180px;
 }
 
 .grid-row .grid-col-3 {
@@ -310,10 +302,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-3 {
-  margin-left: 260px;
-}
-
 .grid-row .grid-col-4 {
   display: inline-block;
   vertical-align: top;
@@ -325,10 +313,6 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
-}
-
-.grid-row .grid-offset-4 {
-  margin-left: 340px;
 }
 
 .grid-row .grid-col-5 {
@@ -344,10 +328,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-5 {
-  margin-left: 420px;
-}
-
 .grid-row .grid-col-6 {
   display: inline-block;
   vertical-align: top;
@@ -359,10 +339,6 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
-}
-
-.grid-row .grid-offset-6 {
-  margin-left: 500px;
 }
 
 .grid-row .grid-col-7 {
@@ -378,10 +354,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-7 {
-  margin-left: 580px;
-}
-
 .grid-row .grid-col-8 {
   display: inline-block;
   vertical-align: top;
@@ -393,10 +365,6 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
-}
-
-.grid-row .grid-offset-8 {
-  margin-left: 660px;
 }
 
 .grid-row .grid-col-9 {
@@ -412,10 +380,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-9 {
-  margin-left: 740px;
-}
-
 .grid-row .grid-col-10 {
   display: inline-block;
   vertical-align: top;
@@ -427,10 +391,6 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
-}
-
-.grid-row .grid-offset-10 {
-  margin-left: 820px;
 }
 
 .grid-row .grid-col-11 {
@@ -446,10 +406,6 @@ body {
   word-spacing: normal;
 }
 
-.grid-row .grid-offset-11 {
-  margin-left: 900px;
-}
-
 .grid-row .grid-col-12 {
   display: inline-block;
   vertical-align: top;
@@ -461,6 +417,50 @@ body {
   min-height: 1px;
   letter-spacing: normal;
   word-spacing: normal;
+}
+
+.grid-row .grid-offset-1 {
+  margin-left: 100px;
+}
+
+.grid-row .grid-offset-2 {
+  margin-left: 180px;
+}
+
+.grid-row .grid-offset-3 {
+  margin-left: 260px;
+}
+
+.grid-row .grid-offset-4 {
+  margin-left: 340px;
+}
+
+.grid-row .grid-offset-5 {
+  margin-left: 420px;
+}
+
+.grid-row .grid-offset-6 {
+  margin-left: 500px;
+}
+
+.grid-row .grid-offset-7 {
+  margin-left: 580px;
+}
+
+.grid-row .grid-offset-8 {
+  margin-left: 660px;
+}
+
+.grid-row .grid-offset-9 {
+  margin-left: 740px;
+}
+
+.grid-row .grid-offset-10 {
+  margin-left: 820px;
+}
+
+.grid-row .grid-offset-11 {
+  margin-left: 900px;
 }
 
 .grid-row .grid-offset-12 {
@@ -965,10 +965,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-1 {
-    margin-left: 130px;
-  }
-
   .grid-row .grid-col-2 {
     display: inline-block;
     vertical-align: top;
@@ -980,10 +976,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-2 {
-    margin-left: 230px;
   }
 
   .grid-row .grid-col-3 {
@@ -999,10 +991,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-3 {
-    margin-left: 330px;
-  }
-
   .grid-row .grid-col-4 {
     display: inline-block;
     vertical-align: top;
@@ -1014,10 +1002,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-4 {
-    margin-left: 430px;
   }
 
   .grid-row .grid-col-5 {
@@ -1033,10 +1017,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-5 {
-    margin-left: 530px;
-  }
-
   .grid-row .grid-col-6 {
     display: inline-block;
     vertical-align: top;
@@ -1048,10 +1028,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-6 {
-    margin-left: 630px;
   }
 
   .grid-row .grid-col-7 {
@@ -1067,10 +1043,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-7 {
-    margin-left: 730px;
-  }
-
   .grid-row .grid-col-8 {
     display: inline-block;
     vertical-align: top;
@@ -1082,10 +1054,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-8 {
-    margin-left: 830px;
   }
 
   .grid-row .grid-col-9 {
@@ -1101,10 +1069,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-9 {
-    margin-left: 930px;
-  }
-
   .grid-row .grid-col-10 {
     display: inline-block;
     vertical-align: top;
@@ -1116,10 +1080,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-10 {
-    margin-left: 1030px;
   }
 
   .grid-row .grid-col-11 {
@@ -1135,10 +1095,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-11 {
-    margin-left: 1130px;
-  }
-
   .grid-row .grid-col-12 {
     display: inline-block;
     vertical-align: top;
@@ -1150,6 +1106,50 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
+  }
+
+  .grid-row .grid-offset-1 {
+    margin-left: 130px;
+  }
+
+  .grid-row .grid-offset-2 {
+    margin-left: 230px;
+  }
+
+  .grid-row .grid-offset-3 {
+    margin-left: 330px;
+  }
+
+  .grid-row .grid-offset-4 {
+    margin-left: 430px;
+  }
+
+  .grid-row .grid-offset-5 {
+    margin-left: 530px;
+  }
+
+  .grid-row .grid-offset-6 {
+    margin-left: 630px;
+  }
+
+  .grid-row .grid-offset-7 {
+    margin-left: 730px;
+  }
+
+  .grid-row .grid-offset-8 {
+    margin-left: 830px;
+  }
+
+  .grid-row .grid-offset-9 {
+    margin-left: 930px;
+  }
+
+  .grid-row .grid-offset-10 {
+    margin-left: 1030px;
+  }
+
+  .grid-row .grid-offset-11 {
+    margin-left: 1130px;
   }
 
   .grid-row .grid-offset-12 {
@@ -1190,10 +1190,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-1 {
-    margin-left: 75px;
-  }
-
   .grid-row .grid-col-2 {
     display: inline-block;
     vertical-align: top;
@@ -1205,10 +1201,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-2 {
-    margin-left: 135px;
   }
 
   .grid-row .grid-col-3 {
@@ -1224,10 +1216,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-3 {
-    margin-left: 195px;
-  }
-
   .grid-row .grid-col-4 {
     display: inline-block;
     vertical-align: top;
@@ -1239,10 +1227,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-4 {
-    margin-left: 255px;
   }
 
   .grid-row .grid-col-5 {
@@ -1258,10 +1242,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-5 {
-    margin-left: 315px;
-  }
-
   .grid-row .grid-col-6 {
     display: inline-block;
     vertical-align: top;
@@ -1273,10 +1253,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-6 {
-    margin-left: 375px;
   }
 
   .grid-row .grid-col-7 {
@@ -1292,10 +1268,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-7 {
-    margin-left: 435px;
-  }
-
   .grid-row .grid-col-8 {
     display: inline-block;
     vertical-align: top;
@@ -1307,10 +1279,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-8 {
-    margin-left: 495px;
   }
 
   .grid-row .grid-col-9 {
@@ -1326,10 +1294,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-9 {
-    margin-left: 555px;
-  }
-
   .grid-row .grid-col-10 {
     display: inline-block;
     vertical-align: top;
@@ -1341,10 +1305,6 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
-  }
-
-  .grid-row .grid-offset-10 {
-    margin-left: 615px;
   }
 
   .grid-row .grid-col-11 {
@@ -1360,10 +1320,6 @@ form input[type="radio"] {
     word-spacing: normal;
   }
 
-  .grid-row .grid-offset-11 {
-    margin-left: 675px;
-  }
-
   .grid-row .grid-col-12 {
     display: inline-block;
     vertical-align: top;
@@ -1375,6 +1331,50 @@ form input[type="radio"] {
     min-height: 1px;
     letter-spacing: normal;
     word-spacing: normal;
+  }
+
+  .grid-row .grid-offset-1 {
+    margin-left: 75px;
+  }
+
+  .grid-row .grid-offset-2 {
+    margin-left: 135px;
+  }
+
+  .grid-row .grid-offset-3 {
+    margin-left: 195px;
+  }
+
+  .grid-row .grid-offset-4 {
+    margin-left: 255px;
+  }
+
+  .grid-row .grid-offset-5 {
+    margin-left: 315px;
+  }
+
+  .grid-row .grid-offset-6 {
+    margin-left: 375px;
+  }
+
+  .grid-row .grid-offset-7 {
+    margin-left: 435px;
+  }
+
+  .grid-row .grid-offset-8 {
+    margin-left: 495px;
+  }
+
+  .grid-row .grid-offset-9 {
+    margin-left: 555px;
+  }
+
+  .grid-row .grid-offset-10 {
+    margin-left: 615px;
+  }
+
+  .grid-row .grid-offset-11 {
+    margin-left: 675px;
   }
 
   .grid-row .grid-offset-12 {

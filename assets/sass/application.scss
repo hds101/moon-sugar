@@ -8,23 +8,23 @@
  */
 
 
-@import "variables/settings"; // ok
-@import "variables/mixins"; // ok
+@import "variables/settings";
+@import "variables/mixins";
 
-@import "reset/normalize"; // semi ok
+@import "reset/normalize";
 
-@import "scaffold/grid"; // ok
-@import "scaffold/base"; // ok
-@import "scaffold/type"; // ok
+@import "scaffold/grid";
+@import "scaffold/base";
+@import "scaffold/type";
 
-@import "components/forms"; // ok
-@import "components/tables"; // ok
-@import "components/buttons"; // ok (sizes)
-@import "components/stuff"; // ok
+@import "components/forms";
+@import "components/tables";
+@import "components/buttons";
+@import "components/stuff";
 
 @import "site/ui";
 @import "site/layout";
 @import "site/pages";
 
-@import "scaffold/respond"; // ok
+@import "scaffold/respond";
 
