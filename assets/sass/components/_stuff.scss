@@ -1,5 +1,34 @@
 /* Other components stuff */
 
+
+.clearfix {
+    @include clearfix;
+}
+
+.pull-left {
+    float: left;
+    &.img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+.pull-right {
+    float: right;
+    &.img {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.font-italic {
+    font-style: italic;
+}
+.font-bold {
+    font-weight: bold;
+}
+
 .color-blue {
     color: $blue;
 }
@@ -15,39 +44,3 @@
 .color-cyan {
     color: $cyan;
 }
-
-.pull-left {
-    float: left;
-    &.img {
-        float: left;
-        margin-right: 10px;
-        margin-bottom: 5px;
-    }
-}
-
-.pull-right {
-    float: right;
-    &.img {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-}
-
-.browsehappy {
-    background-color: $blue;
-    color: #fff;
-    padding: $line-height-computed;
-    width: 100%;
-    p {
-        margin: 0;
-        &.lead {
-            margin-bottom: 5px;
-        }
-    }
-    a {
-        color: #fff;
-        text-decoration: underline;
-    }
-}
-

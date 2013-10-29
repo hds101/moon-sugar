@@ -228,22 +228,6 @@ table {
 
 /* Base */
 
-html {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-::-moz-selection {
-  background: #5cb85c;
-  color: #fff;
-  text-shadow: none;
-}
-
-::selection {
-  background: #5cb85c;
-  color: #fff;
-  text-shadow: none;
-}
-
 body {
   min-width: 940px;
 }
@@ -487,6 +471,38 @@ a:hover,
 a:focus,
 a:active {
   color: #3071a9;
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  background: #5cb85c;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #5cb85c;
+  color: #fff;
+  text-shadow: none;
+}
+
+.browsehappy {
+  background-color: #428bca;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+.browsehappy p {
+  margin: 0;
+}
+
+.browsehappy p.lead {
+  margin-bottom: 5px;
+}
+
+.browsehappy a {
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -864,24 +880,19 @@ form input[type="radio"] {
 
 /* Other components stuff */
 
-.color-blue {
-  color: #428bca;
+.clearfix {
+  *zoom: 1;
 }
 
-.color-green {
-  color: #5cb85c;
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
 }
 
-.color-orange {
-  color: #f0ad4e;
-}
-
-.color-red {
-  color: #d9534f;
-}
-
-.color-cyan {
-  color: #5bc0de;
+.clearfix:after {
+  clear: both;
 }
 
 .pull-left {
@@ -904,24 +915,32 @@ form input[type="radio"] {
   margin-bottom: 5px;
 }
 
-.browsehappy {
-  background-color: #428bca;
-  color: #fff;
-  padding: 20px;
-  width: 100%;
+.font-italic {
+  font-style: italic;
 }
 
-.browsehappy p {
-  margin: 0;
+.font-bold {
+  font-weight: bold;
 }
 
-.browsehappy p.lead {
-  margin-bottom: 5px;
+.color-blue {
+  color: #428bca;
 }
 
-.browsehappy a {
-  color: #fff;
-  text-decoration: underline;
+.color-green {
+  color: #5cb85c;
+}
+
+.color-orange {
+  color: #f0ad4e;
+}
+
+.color-red {
+  color: #d9534f;
+}
+
+.color-cyan {
+  color: #5bc0de;
 }
 
 /* Site UI */

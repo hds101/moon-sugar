@@ -1,25 +1,7 @@
 /* Base */
 
 
-html {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-
-::-moz-selection {
-    background: $green;
-    color: #fff;
-    text-shadow: none;
-}
-::selection {
-    background: $green;
-    color: #fff;
-    text-shadow: none;
-}
-
-
 @include grid($grid-col-count, $grid-col-width, $grid-gutter-width);
-
 
 body,
 button,
@@ -43,3 +25,30 @@ a {
     }
 }
 
+::-moz-selection {
+    background: $green;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: $green;
+    color: #fff;
+    text-shadow: none;
+}
+
+.browsehappy {
+    background-color: $blue;
+    color: #fff;
+    padding: $line-height-computed;
+    width: 100%;
+    p {
+        margin: 0;
+        &.lead {
+            margin-bottom: 5px;
+        }
+    }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
